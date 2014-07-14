@@ -1,0 +1,27 @@
+{
+  "name": "sigint-hook",
+  "version": "0.1.0",
+  "description": "Take control of the SIGINT signal",
+  "keywords": [
+    "sigint",
+    "exit",
+    "windows"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peol/sigint-hook"
+  },
+  "bugs": "https://github.com/peol/sigint-hook/issues",
+  "author": "Andrée Hansson",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-esformatter": "^0.2.3",
+    "grunt-eslint": "^0.6.0",
+    "grunt-surveil": "~0.1.1"
+  }
+}
