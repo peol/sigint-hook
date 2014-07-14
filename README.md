@@ -10,6 +10,7 @@ npm install sigint-hook
 
 ### Configuration
 `eventOnHookOnly` (default `false`): if `true`, will not emit on the `process` global object
+
 `triggerOnce` (default: `false`): if `true`, will stop listening after first `SIGINT` signal
 
 ### Examples
